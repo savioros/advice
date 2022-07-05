@@ -36,7 +36,7 @@ This is a Front End Mentor project. I was based on the design they provided me a
 
 ### 5 - And this is the mobile version.
 
-![Post show](https://github.com/savioros/advice/blob/main/public/readme/Loading.png)
+![Post show](https://github.com/savioros/advice/blob/main/public/readme/Mobile.png)
 
 
 ## Links
