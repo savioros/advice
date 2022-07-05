@@ -1,64 +1,56 @@
-By Sávio Rian
-This is a simple project with react where the user gets advice.
+## By Sávio Rian
+This is a simple project with react where the user gets advice
 
-Technology
+## Technology 
+
 Here are the technologies used in this project.
 
-ReactJS
-Rails version 6.1.3.2
-PostgreSQL
-Webpacker
-Services Used
-Github
-Heroku
-Ruby Gems
-Devise
-Bootstrap
-Kaminari
-Select2
-Cancancan
-Getting started
-Dependency
+* ReactJS
+* React Hooks
 
-Ruby
-Rails
-To create and build your database accord of the project.
+## Services Used
 
-rake db:create db:migrate
-To create the previous files to use on the project, on the database.
+* Github
+* Netlify
 
-rake db:seed
-To install the gems.
+## Project description
+This is a Front End Mentor project. I was based on the design they provided me and I used the API from https://api.adviceslip.com/ to get the advice. I used some Hooks techniques, to do the "loading" while the request is processed and to render the component when the request is finished.
 
-bundle install
-To run the project.
+## Project images
 
-rails s
-How to use
-1 - When you access, you will see the Home page <3
-Homepage image
+### 1 - When you access, you will see the Home page <3
 
-2 - You can also see a lot of information on the Blog posts session.
-Posts
+![Homepage image](https://github.com/savioros/advice/blob/main/public/readme/Home.png)
 
-3 - Or access some of the posts :D
-Post show Post show Post show
+### 2 - When you press the button you receive an advice.
 
-4 - Or you can see my personal Portfolio.
-Portfolio Portfolio
+![Posts](https://github.com/savioros/advice/blob/main/public/readme/Advice.png)
 
-Features
-The main features of the application are:
+### 3 - It also has a hover effect on the button with a smooth animation :D
 
-Publish Posts.
-Learn a lot of information <3
-Links
-Deploy on Heroku: https://lucas-dev.com/
-Repository: https://github.com/Lucasdfg07/Blog_Lucas_Fernandes
-In case of sensitive bugs like security vulnerabilities, please contact Lucassiqueiraferandes07@gmail.com directly instead of using issue tracker. We value your effort to improve the security and privacy of this project!
-Versioning
-1.0.0.0
+![Post show](https://github.com/savioros/advice/blob/main/public/readme/Advice%20hover.png)
 
-Authors
-Lucas Siqueira Fernandes
-Please follow github and join us! Thanks to visiting me and good coding!
+### 4 - While the request is being made, there is a load.
+
+![Post show](https://github.com/savioros/advice/blob/main/public/readme/Loading.png)
+
+### 5 - And this is the mobile version.
+
+![Post show](https://github.com/savioros/advice/blob/main/public/readme/Loading.png)
+
+
+## Links
+  - Deploy on Netlify: https://bestadvice.netlify.app/
+  - Repository: https://github.com/savioros/advice
+
+  ## Versioning
+
+  1.0.0.0
+
+
+  ## Authors
+
+  * **Sávio Rian** 
+
+  Please follow github and join us!
+  Thanks to visiting me and good coding!
