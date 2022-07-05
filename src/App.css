@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    background-color: hsl(218, 23%, 16%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Manrope', sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+img{
+    max-width: 100%;
+    display: block;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.content{
+    max-width: 600px;
+    min-height: 350px;
+    width: 550px;
+    height: 300px;
+    padding: 30px;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 12px;
+    color: hsl(193, 38%, 86%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    position: relative;
 }
 
-.App-link {
-  color: #61dafb;
+.content span{
+    color: hsl(150, 100%, 66%);
+    font-size: 14px;
+    letter-spacing: 2px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.content p, h2{
+    text-align: center;
+    font-size: 28px;
+}
+
+.content p::after{
+    content: '';
+    display: block;
+    width: 300px;
+    height: 16px;
+    margin: 30px auto auto auto;
+    background-image: url('./images/pattern-divider-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.content button{
+    cursor: pointer;
+    border: none;
+    background-color: hsl(150, 100%, 66%);
+    border-radius: 50%;
+    padding: 20px;
+    position: absolute;
+    bottom: -30px;
+    transition: .3s ease-out;
+}
+
+.content button:hover{
+    box-shadow: 0 0 45px hsl(150, 100%, 66%);
+}
+
+@media(max-width: 700px){
+    .content{
+        width: 350px;
+        padding: 30px;
+        gap: 15px;
+    }
+
+    .content p, h2{
+        font-size: 24px;
+    }
+}
+
+@media(max-width: 400px){
+    .content{
+        width: 300px;
+    }
+
+    .content p, h2{
+        font-size: 20px;
+    }
+
+    .content p::after{
+        width: 250px;
+    }
 }
