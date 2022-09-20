@@ -13,7 +13,7 @@ Here are the technologies used in this project.
 * Github
 * Netlify
 
-![12](https://user-images.githubusercontent.com/77650278/191382768-49a04a1f-e90a-49a7-b13c-d3c3a488158e.png)
+![12](https://user-images.githubusercontent.com/77650278/191382902-e82d781a-1893-4b72-973d-80288fd0e820.png)
 
 ## Project description
 This is a Front End Mentor project. I was based on the design they provided me and I used the API from https://api.adviceslip.com/ to get the advice. I used some Hooks techniques, to do the "loading" while the request is processed and to render the component when the request is finished.
